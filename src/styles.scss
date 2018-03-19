@@ -23,3 +23,55 @@ a {
     color: #fff;
     text-decoration: none;
 }
+.ui.menu .item img.logo {
+  margin-right: 1.5em;
+}
+
+.ui.items>.item {
+border: 1px solid rgba(255, 255, 255, 0.0);
+border-radius: 5px;
+}
+
+.ui.items>.item.selected {
+border: 1px solid rgba(163, 51, 200, 0.41);
+border-radius: 5px;
+}
+
+.ui.items>.item>.content>.header {
+  padding-top: 1em;
+}
+
+.products-list {
+border-top: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+
+.product-row {
+border-bottom: 1px solid black;
+}
+
+.product-image {
+float: left;
+}
+
+
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+cf {
+  *zoom: 1;
+}
+
+.imgc {
+width: 100%;
+padding: 5px;
+}
